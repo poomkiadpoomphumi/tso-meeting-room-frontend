@@ -1,0 +1,232 @@
+.App {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar-container {
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  box-sizing: border-box;
+  /* Ensure padding/margins are included in width/height */
+}
+
+.header-container {
+  display: flex;
+  /*   margin-top: 15px;
+  margin-bottom: 10px; */
+}
+
+.ptt-logo {
+  height: 50px;
+  margin-top: 13px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+
+.rbc-today {
+  background-color: #ccffcc !important;
+  color: #000000 !important;
+}
+
+.rbc-off-range-bg {
+  background: #d5eaff;
+}
+
+.rbc-agenda-table tr {
+  background-color: #1976d2 !important;
+  /* Blue background */
+  color: white !important;
+  /* White text */
+}
+
+.calendar-date-header,
+.calendar-day-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meeting-room-label {
+  margin-left: 5px;
+  margin-bottom: 3px;
+  font-size: smaller;
+  color: #007bff;
+  /* Standard link color */
+  text-decoration: none;
+  /* Remove underline by default */
+  cursor: pointer;
+  /* Makes it clickable */
+}
+
+.meeting-room-label:hover {
+  text-decoration: underline;
+  /* Underline on hover like a link */
+  color: #0056b3;
+  /* Darker color on hover */
+}
+
+.meeting-room-label:active {
+  color: #003366;
+  /* Change color when clicked */
+}
+
+.date-label {
+  font-size: smaller;
+  cursor: pointer;
+}
+
+.rbc-agenda-event-cell {
+  cursor: pointer;
+}
+
+/* Add a border to all sides of each day cell */
+.rbc-day-bg {
+  border-top: 2px solid #bbddff;
+  /* Customize the border color and size */
+  border-left: 2px solid #bbddff;
+  /* Customize the border color and size */
+  border-right: 2px solid #bbddff;
+  /* Customize the border color and size */
+}
+
+.rbc-header {
+  border: 2px solid #bbddff;
+  /* Customize the border color and size */
+}
+
+.rbc-month-view {
+  border-bottom: 2px solid #bbddff;
+  /* Customize the border color and size */
+}
+
+.rbc-show-more {
+  margin-top: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.rbc-month-row {
+  overflow: none;
+}
+
+
+
+
+/* calendar timeline */
+.react-calendar-timeline .rct-dateHeader-primary {
+  display: none;
+}
+
+.react-calendar-timeline .rct-header-root {
+  background-color: #bbddff !important;
+}
+
+.rct-item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #eeffdd !important;
+  color: #000 !important;
+  border: 2px solid #333399;
+  /* Border for the content */
+  border-radius: 4px;
+  height: 50%;
+}
+
+.rct-item-content {
+  font-size: 15px;
+}
+
+.react-calendar-timeline .rct-horizontal-lines .rct-hl-odd {
+  background-color: #fff !important;
+  /* Set background color to white */
+  border: 1px solid #bbddff;
+  /* Optional: add a border for better visibility */
+}
+
+.react-calendar-timeline .rct-horizontal-lines .rct-hl-even {
+  background-color: #fff !important;
+  /* Set background color to white */
+  border: 1px solid #bbddff;
+  /* Optional: add a border for better visibility */
+}
+
+.react-calendar-timeline .rct-sidebar .rct-sidebar-row.rct-sidebar-row-odd {
+  background-color: #bbddff !important;
+  /* Set background color to white */
+  padding-left: 10px;
+}
+
+.react-calendar-timeline .rct-sidebar .rct-sidebar-row.rct-sidebar-row-even {
+  background-color: #bbddff !important;
+  /* Set background color to white */
+  padding-left: 10px;
+}
+
+.react-calendar-timeline .rct-calendar-header {
+  border: 2px solid #bbddff;
+}
+
+.react-calendar-timeline .rct-dateHeader {
+  border-left: 2px solid #bbddff;
+}
+
+.react-calendar-timeline .rct-sidebar .rct-sidebar-row {
+  border-bottom: 2px solid #bbddff;
+}
+
+.rct-sidebar {
+  border-right: 2px solid #bbddff !important;
+}
+
+.react-calendar-timeline .rct-dateHeader {
+  border-bottom: none;
+}
+
+.react-calendar-timeline .rct-header-root {
+  border-bottom: unset;
+  /* border-bottom: 2px solid #bbddff; */
+}
+
+.react-calendar-timeline .rct-vertical-lines .rct-vl.rct-vl-first {
+  border-left-width: 1px;
+  border-color: #bbddff;
+}
+
+.react-calendar-timeline .rct-vertical-lines .rct-vl {
+  border: 1px solid #bbddff;
+}
+
+.react-calendar-timeline * {
+  box-sizing: unset;
+}
+
+.rct-outer {
+  border: 2px solid #bbddff;
+}
+
+.no-scroll {
+  overflow: hidden !important;
+}
+
+.no-scroll .rct-scroll {
+  overflow: hidden !important;
+}
+
+.react-calendar-timeline .rct-dateHeader {
+  background-color: #fff !important;
+}
+
+.rct-scroll {
+  background-color: #fff !important;
+}
+
+

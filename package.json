@@ -1,0 +1,70 @@
+{
+  "name": "tso-web-meeting-room",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/msal-browser": "^3.28.0",
+    "@azure/msal-react": "^2.0.17",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fullcalendar/daygrid": "^6.1.13",
+    "@fullcalendar/react": "^6.1.13",
+    "@fullcalendar/scrollgrid": "^6.1.13",
+    "@material-ui/pickers": "^3.3.11",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^6.2.0",
+    "@mui/x-date-pickers": "^7.23.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "axios": "^1.7.2",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.2.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "interactjs": "^1.10.27",
+    "moment": "^2.30.1",
+    "notistack": "^3.0.1",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "react": "^18.3.1",
+    "react-big-calendar": "^1.12.2",
+    "react-calendar-timeline": "^0.28.0",
+    "react-dom": "^18.3.1",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
+    "react-time-picker": "^7.0.0",
+    "vite": "^6.3.5",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
+  },
+  "scripts": {
+    "dev": "vite --port 4000",
+    "build": "vite build",
+    "build-stage": "env-cmd -f .env.qa vite build",
+    "preview": "npx vite preview --host --port 4000",
+    "test": "echo \"You can integrate vitest or jest here\" && exit 0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

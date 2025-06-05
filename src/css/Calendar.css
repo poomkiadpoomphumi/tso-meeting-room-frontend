@@ -1,0 +1,105 @@
+.meeting-room-label {
+  visibility: hidden; /* Keeps the space occupied but hides the content */
+  opacity: 0; /* Make the label fully transparent */
+  transition: opacity 0.3s ease; /* Smoothly transition visibility */
+}
+
+.calendar-date-header:hover .meeting-room-label {
+  visibility: visible; /* Makes the label visible on hover */
+  opacity: 1; /* Fade the label in */
+}
+
+/* Calendar.css
+
+.calendar {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-header button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .calendar-header button:hover {
+    background-color: #0056b3;
+  }
+  
+  .calendar-header h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .day-header {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  .day-cell {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .day-cell:hover {
+    background-color: #e7f1ff;
+  }
+  
+  .day-cell ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px 0 0;
+    font-size: 0.8em;
+    color: #555;
+    text-align: center;
+  }
+  
+  .day-cell li {
+    padding: 2px 0;
+  }
+  
+  .day-cell.selected {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+  }
+  
+   */
